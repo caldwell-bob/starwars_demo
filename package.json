@@ -1,8 +1,13 @@
 {
   "name": "starwars_demo",
   "version": "1.0.0",
-  "description": "StarWars",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
